@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table
+        {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+        th, td
+        {
+            border: 1px solid rgb(33, 168, 209);
+            padding: 10px;
+        }
+        tr:nth-child(even)
+        {
+            background-color: rgb(201, 194, 106);
+        }
+    </style>
+</head>
+<body>
+    <center><h1><a href="https://docs.emmet.io/cheat-sheet/">Table data cheat-sheet</a></h1></center>
+    <center><h1><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">Table MDN reference</a></h1></center>
+    <table>
+        <colgroup>
+            <col span="3" style="background-color: springgreen;"/>
+        </colgroup>
+        <tr>
+            <th>Student's</th>
+            <th>Hindi</th>
+            <th>English</th>
+            <th>Maths</th>
+            <th>Computer</th>
+            <th>Science</th>
+        </tr>
+        <tr>
+            <td>Ritik</td>
+            <td>67</td>
+            <td>50</td>
+            <td>59</td>
+            <td>72</td>
+            <td>49</td>
+        </tr>
+        <tr>
+            <td>Saurabh</td>
+            <td>70</td>
+            <td>80</td>
+            <td>69</td>
+            <td>82</td>
+            <td>79</td>
+        </tr>
+        <tr>
+            <td>Reena</td>
+            <td>90</td>
+            <td>55</td>
+            <td>59</td>
+            <td>62</td>
+            <td>52</td>
+        </tr>
+        <tr>
+            <td>Kushal</td>
+            <td>67</td>
+            <td>50</td>
+            <td>59</td>
+            <td>72</td>
+            <td>49</td>
+        </tr>
+        <tr>
+            <td>Sweta</td>
+            <td>47</td>
+            <td>40</td>
+            <td>69</td>
+            <td>52</td>
+            <td>49</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>I'd</th>
+            <td>123</td>
+            <td>321</td>
+        </tr>
+        <tr>
+            <th colspan="2">Roll no.</th>
+            <td>32</td>
+            <td>20</td>
+        </tr>
+    </table>
+</body>
+</html>

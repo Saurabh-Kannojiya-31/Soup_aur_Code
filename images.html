@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: #aca87d;
+        }
+    </style>
+</head>
+<body>
+    <!-- In the images there are two path they are : absolute and relative path -->
+    <img src="https://images.unsplash.com/photo-1590502148726-931b4b16b63a?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="400px" alt="image">
+    <!-- shift+alt+down-key for copy the code or duplicate that code. -->
+    <!-- (./) current folder file, (./../) go to back folder and if you want to go to current or another folder, simply write the name of  that folder for eg. (./banner_images)-->
+    <img src="5088201-preview.png" alt="no-img">
+    <picture>
+        <source media="(min-width: 500px)" srcset="./5088201-removebg-view.png"/>
+        <source media="(min-width: 500px)" srcset="./5088201-removebg-view.png"/>
+        <img src="./5088201-rebg-prev.png" alt="no-image">
+    </picture>
+    <br>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture">Picture HTML MDN Reference link</a>
+    <br>
+    <img src="5088201-removebg-preview.png" usemap="#image-map">
+    <map name="image-map">
+        <area onclick="one()" target="" alt="" title="" href="" coords="107,67,37" shape="circle">
+        <area onclick="two()" target="" alt="" title="" href="" coords="254,388,113" shape="circle">
+    </map>
+    <a href="https://www.image-map.net/">Image Map Generator Link</a>
+    <script>
+        function one()
+        {
+            alert("You have to clicked on one")
+        }
+        function two()
+        {
+            alert("You have to clicked on two")
+        }
+    </script>
+</body>
+</html>

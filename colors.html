@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<!-- The <html> HTML element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element. -->
+
+<html lang="en">
+
+<!-- The <head> HTML element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets. -->
+
+    <head>
+
+<!-- The <meta> HTML element represents metadata that cannot be represented by other HTML meta-related elements, like <base>, <link>, <script>, <style> or <title>. This attribute defines the name of a piece of document-level metadata. It should not be set if one of the attributes itemprop, http-equiv or charset is also set. -->
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+
+    <!-- The <link> HTML element specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things. -->
+    
+    <link rel="stylesheet" href="style.css">
+
+    <!-- The <title> HTML element defines the document's title that is shown in a browser's title bar or a page's tab. It only contains text; tags within the element are ignored. -->
+
+    <title>Colors page</title>
+
+</head>
+
+<!-- The <body> HTML element represents the content of an HTML document. There can be only one <body> element in a document. -->
+
+<body>
+
+<!-- The <h1> to <h6> HTML elements represent six levels of section headings. <h1> is the highest section level and <h6> is the lowest. By default, all heading elements create a block-level box in the layout, starting on a new line and taking up the full width available in their containing block. -->
+    
+    <h1>formatting</h1>
+    
+<!-- The <p> HTML element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields. -->
+    
+    <p>
+        
+        This is my 
+        
+        <!-- The <b> HTML element is used to draw the reader's attention to the element's contents, which are not otherwise granted special importance. This was formerly known as the Boldface element, and most browsers still draw the text in boldface. However, you should not use <b> for styling text or granting importance. If you wish to create boldface text, you should use the CSS font-weight property. If you wish to indicate an element is of special importance, you should use the <strong> element. -->
+        
+            <b>paragraph</b>
+    
+    </p>
+
+    <p>
+        
+        This is my 
+        
+        <!-- The <i> HTML element represents a range of text that is set off from the normal text for some reason, such as idiomatic text, technical terms, taxonomical designations, among others. Historically, these have been presented using italicized type, which is the original source of the <i> naming of this element. -->
+
+        <i>paragraph</i>
+    
+    </p>
+
+    <p>
+        
+        This is my 
+        
+        <!-- The <strong> HTML element indicates that its contents have strong importance, seriousness, or urgency. Browsers typically render the contents in bold type. -->
+
+        <strong>paragraph</strong>
+    
+    </p>
+
+    <p>
+        
+        This is my 
+    
+        <!-- The <em> HTML element marks text that has stress emphasis. The <em> element can be nested, with each level of nesting indicating a greater degree of emphasis. -->
+
+        <em>paragraph</em>
+    
+    </p>
+
+<!-- The <ul> HTML element represents an unordered list of items, typically rendered as a bulleted list. -->
+    
+    <ul>
+
+        <!-- The <li> HTML element is used to represent an item in a list. It must be contained in a parent element: an ordered list (<ol>), an unordered list (<ul>), or a menu (<menu>). In menus and unordered lists, list items are usually displayed using bullet points. In ordered lists, they are usually displayed with an ascending counter on the left, such as a number or letter. -->
+        
+        <li>b; strong</li>
+
+        <li>i; em</li>
+
+        <li>del; markquee</li>
+
+        <li>sub; sup</li>
+
+        <li>small</li>
+
+    </ul>
+
+    <!-- The <marquee> HTML element is used to insert a scrolling area of text. You can control what happens when the text reaches the edges of its content area using its attributes. -->
+
+    <marquee behavior="scroll" direction="right">Hello</marquee>
+
+    <!-- The <sub> HTML element specifies inline text which should be displayed as subscript for solely typographical reasons. Subscripts are typically rendered with a lowered baseline using smaller text. -->
+
+    <p>H<sub>2</sub>O</p>
+
+    <!-- The <sup> HTML element specifies inline text which is to be displayed as superscript for solely typographical reasons. Superscripts are usually rendered with a raised baseline using smaller text. -->
+
+    <p>12<sup>th</sup> standard</p>
+
+    <!-- The <small> HTML element represents side-comments and small print, like copyright and legal text, independent of its styled presentation. By default, it renders text within it one font-size smaller, such as from small to x-small. -->
+    
+    <small>This is small content</small>
+
+    <!-- The <del> HTML element represents a range of text that has been deleted from a document. This can be used when rendering "track changes" or source code diff information, for example. The <ins> element can be used for the opposite purpose: to indicate text that has been added to the document. -->
+    
+        <del>This is the content</del>
+
+<h1 style="text-align: center; background-color: rgb(120, 184, 136); color: #000;">
+
+    <!-- The rgb() functional notation expresses a color in the sRGB color space according to its red, green, and blue components. An optional alpha component represents the color's transparency. 
+    R-RED, G-GREEN, B-BLUE, and A-ABSOLUTE value (rgb'a')
+    -->
+
+    This tag is needs some styling
+
+</h1>
+
+<p>
+
+<!-- The <blockquote> HTML element indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation (see Notes for how to change it). A URL for the source of the quotation may be given using the cite attribute, while a text representation of the source can be given using the <cite> element. -->
+
+    <blockquote>
+        Hello my name is saurabh
+    </blockquote>
+
+</p>
+
+<p>
+
+<!-- The <q> HTML element indicates that the enclosed text is a short inline quotation. Most modern browsers implement this by surrounding the text in quotation marks. This element is intended for short quotations that don't require paragraph breaks; for long quotations use the <blockquote> element. -->
+
+    <q>
+        Hello my name is saurabh
+    </q>
+
+</p>
+
+<!-- The <abbr> HTML element represents an abbreviation or acronym. When including an abbreviation or acronym, provide a full expansion of the term in plain text on first use, along with the <abbr> to mark up the abbreviation. This informs the user what the abbreviation or acronym means.
+
+The optional title attribute can provide an expansion for the abbreviation or acronym when a full expansion is not present. This provides a hint to user agents on how to announce/display the content while informing all users what the abbreviation means. If present, title must contain this full description and nothing else.-->
+
+    <abbr title="Hyper Text Markup Language">HTML</abbr>
+
+<!-- The <address> HTML element indicates that the enclosed HTML provides contact information for a person or people, or for an organization. -->
+
+<address>what to do</address>
+
+<!-- The <cite> HTML element is used to mark up the title of a cited creative work. The reference may be in an abbreviated form according to context-appropriate conventions related to citation metadata. -->
+
+    <cite>hello saurabh</cite>
+
+<br>
+
+<!-- The <bdo> HTML element overrides the current directionality of text, so that the text within is rendered in a different direction. -->
+
+<bdo dir="ltr">SAURABH KUMAR KANNOJIYA</bdo>
+
+</body>
+
+</html>

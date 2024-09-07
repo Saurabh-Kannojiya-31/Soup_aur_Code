@@ -1,0 +1,7 @@
+/* This is the css file where all the CSS properties are hold as a separate identity, classes and id's for the styling of our webpages. */
+
+body
+{
+    background-color: rgb(95, 95, 95);
+    color: #ffffff;
+}
